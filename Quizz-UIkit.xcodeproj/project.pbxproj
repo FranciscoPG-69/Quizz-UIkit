@@ -58,13 +58,29 @@
 			children = (
 				F28DE2362C53304000D24607 /* AppDelegate.swift */,
 				F28DE2382C53304000D24607 /* SceneDelegate.swift */,
-				F28DE23A2C53304000D24607 /* ViewController.swift */,
-				F28DE23C2C53304000D24607 /* Main.storyboard */,
+				F28DE2532C5F084400D24607 /* Controller */,
+				F28DE2542C5F085F00D24607 /* View */,
 				F28DE23F2C53304200D24607 /* Assets.xcassets */,
 				F28DE2412C53304200D24607 /* LaunchScreen.storyboard */,
 				F28DE2442C53304200D24607 /* Info.plist */,
 			);
 			path = "Quizz-UIkit";
+			sourceTree = "<group>";
+		};
+		F28DE2532C5F084400D24607 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F28DE23A2C53304000D24607 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F28DE2542C5F085F00D24607 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F28DE23C2C53304000D24607 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
