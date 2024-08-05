@@ -25,7 +25,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="lXc-RD-4dV">
                                 <rect key="frame" x="16" y="59" width="361" height="759"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question Text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Unf-Rh-76I">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question Text" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Unf-Rh-76I">
                                         <rect key="frame" x="0.0" y="0.0" width="361" height="509"/>
                                         <color key="tintColor" red="0.12323832379999999" green="0.1657229704" blue="0.42212301590000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -113,7 +113,7 @@
                     <connections>
                         <outlet property="optionOneButton" destination="9HT-eP-duI" id="gaC-Uu-Jde"/>
                         <outlet property="optionThreeButton" destination="C5p-Ww-tHC" id="Ty3-UA-6Vv"/>
-                        <outlet property="optionTwoButton" destination="C5p-Ww-tHC" id="HQZ-Tu-fmN"/>
+                        <outlet property="optionTwoButton" destination="Rlb-be-9T4" id="gc6-y6-hNL"/>
                         <outlet property="progressBar" destination="brg-X9-VU0" id="dKa-Ti-6SQ"/>
                         <outlet property="questionLabel" destination="Unf-Rh-76I" id="UVP-kd-anu"/>
                     </connections>
